@@ -1,0 +1,16 @@
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/DBUtility.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/BrowserUtils.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/pages/HomePage.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/ConfigReader.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/DBType.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/pages/FaqPage.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/DropDown.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/runners/CukesRunnerUI.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/step_definitions/ui/Hooks.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/step_definitions/ui/Ui_HomePage_stepDef.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/utilities/Driver.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/step_definitions/ui/Login_stepDef.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/pages/LoginPage.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/runners/CukesRunnerAPI.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/pages/ApplicationPage.java
+/Users/Januzak/eclipse-workspace/CreditNinja_Automation/src/test/java/step_definitions/api/Search_repositories_author_step_def.java

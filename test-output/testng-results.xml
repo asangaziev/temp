@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user navigates to CreditNinja and use credentials &quot;James&quot; &quot;Bond&quot; &quot;zhanuzak+454@creditninja.com&quot; &quot;3123121234&quot; (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user navigates to CreditNinja loan application about your work and verify url and tite of it (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user sends information &quot;September&quot; &quot;2&quot; &quot;1990&quot; &quot;222 S Riverside&quot; &quot;Chicago&quot; &quot;Illinois&quot; &quot;60610&quot; &quot;checked&quot; &quot;414-54-1405&quot; &quot;414-54-1405&quot; &quot;yes&quot; &quot;choose&quot; &quot;2000&quot; &quot;choose&quot; &quot;choose&quot; &quot;choose&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user clicks continue and validates missing fields (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8258" started-at="2018-07-11T01:29:00Z" finished-at="2018-07-11T01:29:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.CukesRunnerUI@20398b7c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="8258" started-at="2018-07-11T01:29:00Z" finished-at="2018-07-11T01:29:08Z">
+      <class name="runners.CukesRunnerUI">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.CukesRunnerUI@20398b7c]" name="setUpClass" is-config="true" duration-ms="290" started-at="2018-07-11T01:29:00Z" finished-at="2018-07-11T01:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.CukesRunnerUI@20398b7c]" name="runScenario" duration-ms="7844" started-at="2018-07-11T01:29:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-11T01:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating all fields on about your work page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify all fields on Reg 2"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dev.creditninja.com/loan_application/about_your_work] but found [https://qa.creditninja.com/loan_application/about_your_work]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dev.creditninja.com/loan_application/about_your_work] but found [https://qa.creditninja.com/loan_application/about_your_work]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at pages.HomePage.urlTitleVerify(HomePage.java:113)
+at step_definitions.ui.Ui_aboutYourWork_field_validation_stepDef.user_navigates_to_CreditNinja_loan_application_about_your_work_and_verify_url_and_tite_of_it(Ui_aboutYourWork_field_validation_stepDef.java:32)
+at ✽.user navigates to CreditNinja loan application about your work and verify url and tite of it(src/test/resources/testData/Ui_aboutYourWork_field_validation.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user navigates to CreditNinja and use credentials &quot;James&quot; &quot;Bond&quot; &quot;zhanuzak+454@creditninja.com&quot; &quot;3123121234&quot; (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user navigates to CreditNinja loan application about your work and verify url and tite of it (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user sends information &quot;September&quot; &quot;2&quot; &quot;1990&quot; &quot;222 S Riverside&quot; &quot;Chicago&quot; &quot;Illinois&quot; &quot;60610&quot; &quot;checked&quot; &quot;414-54-1405&quot; &quot;414-54-1405&quot; &quot;yes&quot; &quot;choose&quot; &quot;2000&quot; &quot;choose&quot; &quot;choose&quot; &quot;choose&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user clicks continue and validates missing fields (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.CukesRunnerUI@20398b7c]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2018-07-11T01:29:08Z" finished-at="2018-07-11T01:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.CukesRunnerUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
